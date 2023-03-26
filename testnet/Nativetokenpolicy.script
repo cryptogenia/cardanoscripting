@@ -1,0 +1,43 @@
+{
+    "type": "any",
+    "scripts": [
+    {
+        "type": "before",
+        "slot": 13364106,
+        "scripts": [
+            {
+                "type": "any",
+                "scripts": [
+                    {
+                        "type": "sig",
+                        "keyHash": "f019002f869a013721ac82d7288be0a4dcfa15bd96850fd73068d0a7"
+                    },
+                    {
+                        "type": "sig",
+                        "keyHash": "f00303d7bd48be0723dad542646138857019950f27d569910603dfe9"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "after",
+        "slot": 13364106,
+        "scripts": [
+            {
+                "type": "all",
+                "scripts": [
+                    {
+                        "type": "sig",
+                        "keyHash": "f019002f869a013721ac82d7288be0a4dcfa15bd96850fd73068d0a7"
+                    },
+                    {
+                        "type": "sig",
+                        "keyHash": "f00303d7bd48be0723dad542646138857019950f27d569910603dfe9"
+                    }
+                ]
+            }
+        ]
+    }
+    ]
+}
