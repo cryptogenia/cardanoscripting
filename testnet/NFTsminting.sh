@@ -8,10 +8,10 @@
 
 #cardano-cli query tip $TESTNET
 
-#cardano-cli query utxo \
-# --address $(cat addr01.addr) \
-# $TESTNET
-
+cardano-cli query utxo \
+ --address $(cat addr01.addr) \
+ $TESTNET 
+ 
 #chmod +x fileeee
 
 #cardano-cli query protocol-parameters $TESTNET --out-file metadataprotocol.params
